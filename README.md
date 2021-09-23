@@ -37,6 +37,7 @@ You will need to configure the following environment variables:
   logstash instance
 * `ELASTICSEARCH_URL` the URL of your elasticsearch instance. (If you use our
   Elasticsearch addon, this will be automatically added)
+* `JAVA_OPTS` to set the JVM args to configure memory parameters like -Xms and -Xmx
 
 You will also change the `change-me` index name in the output section of your
 logstash configuration.

@@ -18,6 +18,10 @@
     "PASSWORD": {
       "generator": "secret",
       "required": true
+    },
+    "JAVA_OPTS": {
+      "value": "-Xms512m -Xmx1024m",
+      "required": true
     }
   },
   "addons": [
