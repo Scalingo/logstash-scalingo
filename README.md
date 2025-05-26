@@ -22,9 +22,7 @@ You will need to configure the following environment variables:
   instance
 * `PASSWORD` the password that you will use to authenticate against your
   logstash instance
-* `OPENSEARCH_HOST` the URL of the OpenSearch database
-* `OPENSEARCH_USER` the username to access the OpenSearch database
-* `OPENSEARCH_PASSWORD` the password to access the OpenSearch database
+* `OPENSEARCH_URL` full URL of the OpenSearch database
 
 You will also change the `change-me` index name in the output section of your
 logstash configuration.
