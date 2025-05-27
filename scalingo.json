@@ -21,6 +21,6 @@
     }
   },
   "addons": [
-    {"plan": "elasticsearch:elasticsearch-sandbox"}
+    { "plan": "opensearch:opensearch-starter-1024" }
   ]
 }
